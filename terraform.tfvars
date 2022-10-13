@@ -1,0 +1,9 @@
+vpc_name           = "demo-flask-vpc"
+cidr               = "172.16.0.0/16"
+az                 = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
+public_subnets     = ["172.16.200.0/24", "172.16.201.0/24", "172.16.202.0/24"]
+private_subnets    = ["172.16.203.0/24", "172.16.204.0/24", "172.16.205.0/24"]
+enable_nat_gateway = true
+single_nat_gateway = true
+alb_name           = "demo-flask-alb"
+ecs_cluster_name   = "demo-flask-ecs"
